@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}                                                                
+.topo{
+    background-color: rgb(34, 9, 9);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}                                                               
+.logo{
+    width: 100px;
+    position: relative;
+    left: 15%;
+}
+.base{
+    position: absolute;
+    top: 35px;
+    right: 200px;
+    font-size: 26px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.base2, .base3{
+    padding: 10px;
+}
+.p-geral{
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 22px;
+    padding: 0 20px;
+    text-align: center;
+    max-width: 1024px;
+    color: gray;
+    font-family: verdana;
+margin-bottom: 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    background-image: url(imagens/parallax-imagem1.png);
+    position: relative;
+}
+.banner, .parallax2, .parallax3, .parallax4 {
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.parallax2{
+    background-image: url(imagens/parallax-imagem2.jpg);
+    position: relative;
+}
+.parallax3{
+    background-image: url(imagens/parallax-imagem3.jpg);
+    position: relative;
+}
+.parallax4{
+    background-image: url(imagens/parallax-imagem4.png);
+    position: relative;
+}
+.parallax5{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.contato{
+    position: relative;
+
+}
+.ende0{
+    position:relative ;
+}
+.endereço{
+    position: absolute;
+    font-size: 24px;
+    line-height: 18px;
+    border: 1px solid black;
+    top: 600px;  
+    left: 500px; 
+}
+.p2{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(53, 10, 10);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h2-fundo, .horarios{
+    color: white;
+    margin-top: 0;
+
+}
+.parallax5{
+    position: relative;
+    background-image: url(imagens/cafeteria.jpg);
+    padding-top: 20px;
+}
+h1{
+    position: absolute;
+    text-align: center;
+    top: 400px;  
+    left: 600px;  
+    font-size: 50px;  
+    color: white;
+}
+h2, h3{
+    text-align: center;
+}
+h2{
+    font-size: 34px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    color: rgb(70, 63, 63);
+}
+iframe{
+    position: absolute;
+    top: 100px;  
+    left: 400px; 
+}
+.lista-horario{
+    max-width: 768px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    list-style: none;
+}
+.lista-horarios li div { /* tarja = <div> */
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 80%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC;
+    text-align: center;
+}
+.lista1{
+    margin-top: 30px;
+    position: relative;
+}
+.lista1 p, span{
+    position: absolute;
+    color: white;
+    left: 1630px;
+    top: 5px;
+}
+.h3-lista{
+    position: relative;
+    top: 0;
+    color: white;
+    right: 700px;
+}
+.h3-parallax{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(71, 35, 35);
+    left: 600px;
+    top: 400px;
+}
+
+.fundo{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    background-color: rgb(39, 6, 6);
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.seta{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
